@@ -1,0 +1,9 @@
+c:\users\andrew\documents\visual studio 2015\Projects\SSServer\SSServer\bin\Release\SSServer.exe.config
+c:\users\andrew\documents\visual studio 2015\Projects\SSServer\SSServer\bin\Release\SSServer.exe
+c:\users\andrew\documents\visual studio 2015\Projects\SSServer\SSServer\bin\Release\SSServer.pdb
+c:\users\andrew\documents\visual studio 2015\Projects\SSServer\SSServer\obj\Release\SSServer.Form1.resources
+c:\users\andrew\documents\visual studio 2015\Projects\SSServer\SSServer\obj\Release\SSServer.Properties.Resources.resources
+c:\users\andrew\documents\visual studio 2015\Projects\SSServer\SSServer\obj\Release\SSServer.csproj.GenerateResource.Cache
+c:\users\andrew\documents\visual studio 2015\Projects\SSServer\SSServer\obj\Release\SSServer.exe
+c:\users\andrew\documents\visual studio 2015\Projects\SSServer\SSServer\obj\Release\SSServer.pdb
+c:\users\andrew\documents\visual studio 2015\Projects\SSServer\SSServer\obj\Release\SSServer.csprojResolveAssemblyReference.cache
