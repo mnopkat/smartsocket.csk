@@ -2,23 +2,26 @@ int inSize=0; // Переменная, которая будет содержа�
 int val = 0; // Переменная, которая бутет содержать состояние реле
 char str[8]; // Так как типа string тут нет, будем использовать массив символов 
 int Relay = 4; // Пин D4
+int Relay_LED = 13; // Пин D13
 
 
 void setup() 
 { 
   pinMode(Relay, OUTPUT); 
   Serial.begin(9600); // Открываем порт с скоростью передачи в 9600 бод(бит/с) 
-  digitalWrite(Relay, HIGH);
+  digitalWrite(Relay_LED, HIGH);
 } 
 
 void ROn() 
 { 
   digitalWrite(Relay, LOW); // реле включено 
+  digitalWrite(Relay_LED, LOW);
 } 
 
 void ROff() 
 { 
   digitalWrite(Relay, HIGH); // реле выключено 
+  digitalWrite(Relay_LED, HIGH);
 } 
 
 void loop() 
