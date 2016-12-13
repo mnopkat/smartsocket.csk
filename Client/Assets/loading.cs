@@ -4,6 +4,7 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 using System.Net;
+using System.Threading;
 
 public class loading : MonoBehaviour
 {
@@ -20,6 +21,7 @@ public class loading : MonoBehaviour
     void Update()
     {
         try_connect();
+        Thread.Sleep(240);
     } 
 
     public void try_connect()

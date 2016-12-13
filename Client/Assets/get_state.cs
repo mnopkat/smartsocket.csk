@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using System.Threading;
 using System.Net;
 using System.IO;
 using UnityEngine.UI;
@@ -25,6 +26,7 @@ public class get_state : MonoBehaviour {
         {
             manage_state_and_btn();
         }
+        Thread.Sleep(240);
     }
 
     public void manage_state_and_btn()
