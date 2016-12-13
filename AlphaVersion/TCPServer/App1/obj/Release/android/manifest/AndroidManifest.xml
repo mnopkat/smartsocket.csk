@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="App1.App1" android:versionCode="1" android:versionName="1.0" android:installLocation="auto">
-  <!--suppress UsesMinSdkAttributes-->
-  <uses-sdk android:minSdkVersion="11" />
-  <application android:label="App1" android:icon="@drawable/icon" android:name="android.app.Application" android:allowBackup="true">
-    <provider android:name="mono.MonoRuntimeProvider" android:exported="false" android:initOrder="2147483647" android:authorities="App1.App1.mono.MonoRuntimeProvider.__mono_init__" />
-  </application>
-</manifest>
